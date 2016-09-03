@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Toolkit_Base"
+	ProjectGUID="{04797A31-93E0-47D9-9F9D-37E8631FB7F3}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Toolkit_Base.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Debug\&quot;,Toolkit_Base_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/Debug/Toolkit_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Debug\&quot;,Toolkit_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Debug\&quot;,Toolkit_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Toolkit_Base.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Toolkit_Base.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Toolkit_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Toolkit_Base.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Release\&quot;,Toolkit_Base_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/Release/Toolkit_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Release\&quot;,Toolkit_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;Release\&quot;,Toolkit_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Toolkit_Base.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Toolkit_Base.pdb"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Toolkit_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="Toolkit_Base.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Toolkit_Base_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/MinSizeRel/Toolkit_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Toolkit_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Toolkit_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Toolkit_Base.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Toolkit_Base.pdb"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Toolkit_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="Toolkit_Base.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Toolkit_Base_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/RelWithDebInfo/Toolkit_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Toolkit_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,TOOLKIT_BASE_EXPORTS,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Toolkit_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Toolkit_Base.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Toolkit_Base.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Toolkit_Base.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Toolkit_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Toolkit_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Toolkit_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Toolkit_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="orz"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\AutoList.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Clock.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\DynLibManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Exception.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\FSMLogic.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Global.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\IDManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\LogManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Platform.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\PluginsManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Singleton.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\StdHeader.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\TimerManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\ToolkitBaseAllInclude.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\ToolkitBaseConfig.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\ToolkitBasePreDeclare.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\Variant.h">
+			</File>
+		<Filter
+			Name="IDManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\IDManager\IDManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="DynLibManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\DynLibManager\DynLib.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\DynLibManager\PluginsManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="EventSystem"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\Event.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventChannel.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventFactory.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventHandler.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventSpace.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventSpaceRegister.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\EventSystem\EventWorld.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="LogManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\LogManager\LogManager.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="TimerManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\TimerManager\AsioTimerManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\TimerManager\ITimerManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\TimerManager\SimpleTimerManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Toolkit_Base\TimerManager\Timer.h">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="lib"
+			Filter="">
+		<Filter
+			Name="include"
+			Filter="">
+		<Filter
+			Name="IDManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\IDManager\IDManagerImpl.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="DynLibManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\DynLibManager\DynLibImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\DynLibManager\PluginsManagerImpl.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="EventSystem"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\EventSystem\EventFactoryImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\EventSystem\EventHandlerImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\EventSystem\EventSpaceImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\EventSystem\EventWorldImpl.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="TimerManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\TimerManager\AsioTimer.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\include\TimerManager\SimpleTimer.h">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="src"
+			Filter="">
+		<Filter
+			Name="IDManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\IDManager\IDManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\IDManager\IDManagerImpl.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="DynLibManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\DynLib.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\DynLibImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\DynLibManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\DynLibManagerImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\PluginsManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\DynLibManager\PluginsManagerImpl.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="EventSystem"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventFactory.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventHandler.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventHandlerImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventSpace.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventWorld.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\EventSystem\EventWorldImpl.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="LogManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\LogManager\LogManager.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="TimerManager"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\TimerManager\AsioTimerManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\TimerManager\ITimerManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\TimerManager\SimpleTimer.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Toolkit_Base\src\TimerManager\SimpleTimerManager.cpp">
+			</File>
+		</Filter>
+		</Filter>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

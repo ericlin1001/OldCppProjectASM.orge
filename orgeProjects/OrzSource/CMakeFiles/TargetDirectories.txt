@@ -1,0 +1,10 @@
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/CMakeFiles/ALL_BUILD.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/Controller_Base/CMakeFiles/Controller_Base.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/Controller_Win32/CMakeFiles/Controller_Win32.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/Framework_Base/CMakeFiles/Framework_Base.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/Model_Base/CMakeFiles/Model_Base.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/Toolkit_Base/CMakeFiles/Toolkit_Base.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/View_Fmod/CMakeFiles/View_Fmod.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/View_OGRE3D/CMakeFiles/View_OGRE3D.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/View_OIS/CMakeFiles/View_OIS.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSource/CMakeFiles/ZERO_CHECK.dir

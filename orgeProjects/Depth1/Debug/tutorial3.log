@@ -1,0 +1,35 @@
+﻿Build started 2012/3/27 0:37:27.
+     1>Project "E:\C ++\C++Projects\orge\orgeProjects\Depth1\tutorial3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Depth1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\include\OGRE" /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\include\OIS" /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\boost_1_47" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Depth1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DemoApp.cpp -Zm134 
+         DemoApp.cpp
+     1>e:\c ++\c++projects\orge\orgeprojects\depth1\demoapp.cpp(18): warning C4482: nonstandard extension used: enum 'OIS::KeyCode' used in qualified name
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C ++\C++Projects\orge\orgeProjects\Depth1\Debug\Depth1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\lib\Debug\\" /LIBPATH:"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\boost_1_47\lib" OgreMain_d.lib OIS_d.lib OgreTerrain_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Depth1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C ++\C++Projects\orge\orgeProjects\Depth1\Debug\Depth1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C ++\C++Projects\orge\orgeProjects\Depth1\Debug\Depth1.lib" /MACHINE:X86 Debug\Depth1.exe.embed.manifest.res
+         Debug\DemoApp.obj
+         Debug\main.obj
+         Debug\OgreFramework.obj
+         Debug\StdAfx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Depth1.exe.embed.manifest" /manifest Debug\Depth1.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         tutorial3.vcxproj -> E:\C ++\C++Projects\orge\orgeProjects\Depth1\Debug\Depth1.exe
+       PostBuildEvent:
+         copy "E:\C ++\C++Projects\orge\orgeProjects\Depth1\Debug\Depth1.exe" "E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\Bin\Debug"
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         Deleting file "Debug\Depth1.unsuccessfulbuild".
+         Touching "Debug\Depth1.lastbuildstate".
+     1>Done Building Project "E:\C ++\C++Projects\orge\orgeProjects\Depth1\tutorial3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.76

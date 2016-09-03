@@ -1,0 +1,8 @@
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/CMakeFiles/ALL_BUILD.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day1/CMakeFiles/Day1.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day2/CMakeFiles/Day2.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day3/CMakeFiles/Day3.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day4/CMakeFiles/Day4.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day5/CMakeFiles/Day5.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/Day6/CMakeFiles/Day6.dir
+E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/CMakeFiles/ZERO_CHECK.dir

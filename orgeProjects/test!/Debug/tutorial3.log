@@ -1,0 +1,10 @@
+﻿Build started 2012/3/27 19:04:32.
+     1>Project "E:\C ++\C++Projects\orge\orgeProjects\test!\tutorial3.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\include\OGRE" /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\include\OIS" /I"E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\boost_1_47" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Template.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp -Zm134 
+         test.cpp
+     1>Done Building Project "E:\C ++\C++Projects\orge\orgeProjects\test!\tutorial3.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.18

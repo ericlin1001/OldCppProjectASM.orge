@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ZERO_CHECK"
+	ProjectGUID="{5C9682E7-82BF-429E-A0C2-D3BC5CD7FE03}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="ZERO_CHECK.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="ZERO_CHECK.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="ZERO_CHECK.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="ZERO_CHECK.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK">
+			</File>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\generate.stamp.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;"
+					AdditionalDependencies="&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\gcc.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\FindOrzSDK.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\OrzCMakeModule.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day1\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day2\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day3\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day4\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day5\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeSystem.cmake&quot;;"
+					Outputs="CMakeFiles\generate.stamp;Day1\CMakeFiles\generate.stamp;Day2\CMakeFiles\generate.stamp;Day3\CMakeFiles\generate.stamp;Day4\CMakeFiles\generate.stamp;Day5\CMakeFiles\generate.stamp;Day6\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;"
+					AdditionalDependencies="&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\gcc.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\FindOrzSDK.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\OrzCMakeModule.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day1\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day2\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day3\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day4\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day5\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeSystem.cmake&quot;;"
+					Outputs="CMakeFiles\generate.stamp;Day1\CMakeFiles\generate.stamp;Day2\CMakeFiles\generate.stamp;Day3\CMakeFiles\generate.stamp;Day4\CMakeFiles\generate.stamp;Day5\CMakeFiles\generate.stamp;Day6\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;"
+					AdditionalDependencies="&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\gcc.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\FindOrzSDK.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\OrzCMakeModule.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day1\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day2\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day3\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day4\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day5\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeSystem.cmake&quot;;"
+					Outputs="CMakeFiles\generate.stamp;Day1\CMakeFiles\generate.stamp;Day2\CMakeFiles\generate.stamp;Day3\CMakeFiles\generate.stamp;Day4\CMakeFiles\generate.stamp;Day5\CMakeFiles\generate.stamp;Day6\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;"
+					AdditionalDependencies="&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\gcc.cmake&quot;;&quot;D:\Program Files\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\FindOrzSDK.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\CMake\OrzCMakeModule.cmake&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day1\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day2\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day3\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day4\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day5\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\CMakeSystem.cmake&quot;;"
+					Outputs="CMakeFiles\generate.stamp;Day1\CMakeFiles\generate.stamp;Day2\CMakeFiles\generate.stamp;Day3\CMakeFiles\generate.stamp;Day4\CMakeFiles\generate.stamp;Day5\CMakeFiles\generate.stamp;Day6\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK.rule&quot;"
+					Outputs="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK.rule&quot;"
+					Outputs="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK.rule&quot;"
+					Outputs="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK.rule&quot;"
+					Outputs="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

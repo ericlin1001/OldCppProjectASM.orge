@@ -1,0 +1,25 @@
+﻿Build started 2012/3/11 3:00:20.
+     1>Project "E:\C ++\C++Projects\orge\orgeProjects\SetUpOgreApp\tutorial4\tutorial4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\tutorial4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         copy "E:\C ++\C++Projects\orge\orgeProjects\SetUpOgreApp\Debug\tutorial4.exe" "E:\C ++\C++Projects\orge\OgreSDK_vc10_v1-7-4\Bin\Debug"
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         Deleting file "Debug\tutorial4.unsuccessfulbuild".
+         Touching "Debug\tutorial4.lastbuildstate".
+     1>Done Building Project "E:\C ++\C++Projects\orge\orgeProjects\SetUpOgreApp\tutorial4\tutorial4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23

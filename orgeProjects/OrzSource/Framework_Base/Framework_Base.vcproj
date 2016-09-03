@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Framework_Base"
+	ProjectGUID="{9A1FD4C0-0BEE-4769-8FA9-D96CEFF5EB41}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Framework_Base.dir\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Debug\&quot;,Framework_Base_EXPORTS"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/Debug/Framework_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Debug\&quot;,Framework_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Debug\&quot;,Framework_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  tinyxmld_STL.lib ..\lib\Debug\Toolkit_Base.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Framework_Base.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Framework_Base.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Debug\Framework_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Framework_Base.dir\Release"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Release\&quot;,Framework_Base_EXPORTS"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/Release/Framework_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Release\&quot;,Framework_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;Release\&quot;,Framework_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  tinyxml_STL.lib ..\lib\Release\Toolkit_Base.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Framework_Base.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Framework_Base.pdb"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\Release\Framework_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="Framework_Base.dir\MinSizeRel"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Framework_Base_EXPORTS"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/MinSizeRel/Framework_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Framework_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;,Framework_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  tinyxml_STL.lib ..\lib\MinSizeRel\Toolkit_Base.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Framework_Base.dll"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Framework_Base.pdb"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\MinSizeRel\Framework_Base.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="Framework_Base.dir\RelWithDebInfo"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Framework_Base_EXPORTS"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSource/lib/RelWithDebInfo/Framework_Base.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Framework_Base_EXPORTS"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,FRAMEWORK_BASE_EXPORTS,TIXML_USE_STL,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;,Framework_Base_EXPORTS"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  tinyxml_STL.lib ..\lib\RelWithDebInfo\Toolkit_Base.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Framework_Base.dll"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Dependencies\vc90\lib&quot;"
+				ProgramDataBaseFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Framework_Base.pdb"
+				GenerateDebugInformation="TRUE"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSource\lib\RelWithDebInfo\Framework_Base.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Framework_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Framework_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Framework_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource/Framework_Base/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/OrzSource&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSource&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="orz"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\FrameworkBase.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\FrameworkBaseConfig.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\FrameworkBasePreDeclare.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System.h">
+			</File>
+		<Filter
+			Name="Logic"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\Actor.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\Director.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\Entity.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\GameFactories.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\IFactory.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\LogicTools.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\Scene.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\Logic\Theater.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="System"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\IGraphicsManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\IInputManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\ISoundManager.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\SystemInterface.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\SystemTools.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\System\WindowInterface.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="LogicConfiger"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\LogicConfiger\ArgBuilder.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\LogicConfiger\Builder.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\LogicConfiger\LogicFacade.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\LogicConfiger\ManualBuilder.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\orz\Framework_Base\LogicConfiger\XMLBuilder.h">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="lib"
+			Filter="">
+		<Filter
+			Name="include"
+			Filter="">
+		<Filter
+			Name="Logic"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\Logic\GameFactoriesImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\Logic\TheaterImpl.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="System"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\System\IInputManagerImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\System\ISoundManagerImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\System\SystemInterfaceImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\System\WindowInterfaceImpl.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="LogicConfiger"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\LogicConfiger\ArgBuilderImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\LogicConfiger\Data.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\LogicConfiger\LogicFacadeImpl.h">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\include\LogicConfiger\XMLBuilderImpl.h">
+			</File>
+		</Filter>
+		</Filter>
+		<Filter
+			Name="src"
+			Filter="">
+		<Filter
+			Name="Logic"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\Actor.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\Director.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\Entity.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\GameFactories.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\GameFactoriesImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\Scene.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\Logic\Theater.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="System"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\IInputManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\IInputManagerImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\ISoundManager.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\SystemInterface.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\SystemInterfaceImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\System\WindowInterface.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="LogicConfiger"
+			Filter="">
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\ArgBuilder.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\ArgBuilderImpl.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\LogicFacade.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\ManualBuilder.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\XMLBuilder.cpp">
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\OrzSource\Framework_Base\src\LogicConfiger\XMLBuilderImpl.cpp">
+			</File>
+		</Filter>
+		</Filter>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

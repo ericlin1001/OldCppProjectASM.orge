@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="SpaceInvader"
+	ProjectGUID="{732E6B54-855B-4AF2-95F8-E3936985C967}"
+	RootNamespace="Day6"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Day6.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/Debug/Day6.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Framework_Base.lib Toolkit_Base.lib View_OIS.lib View_Fmod.lib View_OGRE3D.lib OgreMain_d.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\Debug\Day6.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib&quot;"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/Debug/Day6.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\Debug\Day6.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy &quot;E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\Debug\Day6.exe&quot; &quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSpaceInvaders\bin\Debug\Day6.exe&quot;"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Day6.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Release\&quot;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/Release/Day6.pdb"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Framework_Base.lib Toolkit_Base.lib View_OIS.lib View_Fmod.lib View_OGRE3D.lib OgreMain.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\Release\Day6.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib&quot;"
+				ProgramDatabaseFile="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/Release/Day6.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\Release\Day6.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="Day6.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/MinSizeRel/Day6.pdb"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Framework_Base.lib Toolkit_Base.lib View_OIS.lib View_Fmod.lib View_OGRE3D.lib OgreMain.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\MinSizeRel\Day6.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib&quot;"
+				ProgramDatabaseFile="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/MinSizeRel/Day6.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\MinSizeRel\Day6.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="Day6.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/RelWithDebInfo/Day6.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,_CONSOLE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\include&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  Framework_Base.lib Toolkit_Base.lib View_OIS.lib View_Fmod.lib View_OGRE3D.lib OgreMain.lib "
+				OutputFile="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\RelWithDebInfo\Day6.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\lib&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib\$(OutDir)&quot;,&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\Build\OrzSDK\dependencies\lib&quot;"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="E:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders/bin/RelWithDebInfo/Day6.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\C ++\C++Projects\orge\orgeProjects\OrzSpaceInvaders\bin\RelWithDebInfo\Day6.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="include"
+			>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include\BattlePlane.h"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include\Bullets.h"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include\EnemyPlanes.h"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\include\TutorialDirector.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="src"
+			>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\src\BattlePlane.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\src\Bullets.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\src\EnemyPlanes.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\src\Tutorial.cpp"
+				>
+			</File>
+			<File
+				RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\src\TutorialDirector.cpp"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders/Day6/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-file CMakeFiles/generate.stamp&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders/Day6/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-file CMakeFiles/generate.stamp&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders/Day6/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-file CMakeFiles/generate.stamp&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders/Day6/CMakeLists.txt"
+					CommandLine="&quot;D:\Program Files\CMake 2.8\bin\cmake.exe&quot; &quot;-HE:/C ++/C++Projects/orge/OgreSource/aDiskOfBook/OgreBook/OgreBook/21Days/OrzSpaceInvaders&quot; &quot;-BE:/C ++/C++Projects/orge/orgeProjects/OrzSpaceInvaders&quot; --check-stamp-file CMakeFiles/generate.stamp&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;&quot;E:\C ++\C++Projects\orge\OgreSource\aDiskOfBook\OgreBook\OgreBook\21Days\OrzSpaceInvaders\Day6\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
